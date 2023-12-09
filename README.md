@@ -6,11 +6,10 @@ This Flask application serves as a frame extractor, utilizing OpenCV for image p
 
 Make sure you have the following dependencies installed:
 
-Flask==2.0.1
-opencv-python==4.5.3.56
-Werkzeug==2.0.1
-Flask-CORS==3.0.10
-python-socketio==5.4.0
+Flask==3.0.0
+opencv-python==4.8.1.78
+Flask-CORS==4.0.0
+flask-socketio==5.3.6
 
 You can install these dependencies by running:
 
