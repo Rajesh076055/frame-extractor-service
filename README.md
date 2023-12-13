@@ -6,10 +6,10 @@ This Flask application serves as a frame extractor, utilizing OpenCV for image p
 
 Make sure you have the following dependencies installed:
 
-Flask==3.0.0
-opencv-python==4.8.1.78
-Flask-CORS==4.0.0
-flask-socketio==5.3.6
+Flask==2.0.1
+opencv-python==4.5.3.56
+Flask-CORS==3.0.10
+python-socketio==5.4.0
 
 You can install these dependencies by running:
 
@@ -42,7 +42,7 @@ Open your web browser and navigate to http://localhost:5000/ to access the appli
 
 Upload a video file through the provided form and submit.
 
-The application will process the video, extract frames, and display the results.
+The application will process the video, extract frames, and return the results to the frontend. Just when the frontend recieves the frame, it sends it to ai for processing and ai returns frame back to frontend for displaying.
 
 ## File Structure
 
