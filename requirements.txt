@@ -1,4 +1,4 @@
 Flask
 Flask-Cors
 FLask-SocketIO
-opencv-python
+#opencv-python
